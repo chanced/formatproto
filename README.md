@@ -9,17 +9,17 @@ package main
 
 import (
     "github.com/chanced/formatproto"
-	pgs "github.com/lyft/protoc-gen-star"
+    pgs "github.com/lyft/protoc-gen-star"
 )
 
 func main() {
-	pgs.Init(
-		pgs.DebugEnv("DEBUG"),
-	).RegisterModule(
+    pgs.Init(
+        pgs.DebugEnv("DEBUG"),
+    ).RegisterModule(
         // your modules here
-	).RegisterPostProcessor(
-		formatproto.PostProcessor(),
-	).Render()
+    ).RegisterPostProcessor(
+        formatproto.PostProcessor(),
+    ).Render()
 }
 ```
 
