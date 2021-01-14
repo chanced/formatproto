@@ -4,20 +4,6 @@ formatproto is a post-processor for [protoc-gen-star](https://github.com/lyft/pr
 
 ## Usage:
 
-You must have clang-format installed.
-
-### MacOS
-
-`brew install clang-format`
-
-### Linux (with apt)
-
-`sudo apt install clang-format`
-
-### Windows
-
-Download the binary: [https://llvm.org/builds/](https://llvm.org/builds/)
-
 ```go
 package main
 
@@ -44,6 +30,22 @@ Language: Proto
 BasedOnStyle: google
 IndentWidth: 2
 ```
+
+## Prereqs:
+
+You must have clang-format installed.
+
+### MacOS
+
+`brew install clang-format`
+
+### Linux (with apt)
+
+`sudo apt install clang-format`
+
+### Windows
+
+Download the binary: [https://llvm.org/builds/](https://llvm.org/builds/)
 
 ## License
 
