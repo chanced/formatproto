@@ -1,3 +1,4 @@
+// Package formatproto is a post-processor for protoc-gen-star that formats proto files with clang-format
 package formatproto
 
 import (
@@ -14,8 +15,8 @@ type formatProto struct {
 	currentFile string
 }
 
-// FormatProto formats proto files with clang-format
-func FormatProto() pgs.PostProcessor {
+// PostProcessor formats proto files with clang-format
+func PostProcessor() pgs.PostProcessor {
 	return &formatProto{}
 }
 
