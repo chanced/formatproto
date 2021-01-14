@@ -1,4 +1,4 @@
-# format-proto
+# formatproto
 
 formatproto is a post-processor for [protoc-gen-star](https://github.com/lyft/protoc-gen-star) that formats proto files with [clang-format](https://clang.llvm.org/docs/ClangFormatStyleOptions.html)
 
